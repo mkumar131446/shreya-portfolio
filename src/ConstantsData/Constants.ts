@@ -31,11 +31,11 @@ export const tools: Tool[] = [
 ]
 
 interface ExperienceItem {
-  logo: string;
-  company: string;
-  role: string;
-  duration: string;
-  description: string[];
+  logo: string
+  company: string
+  role: string
+  duration: string
+  description: string[]
 }
 
 export const experiences: ExperienceItem[] = [
@@ -113,10 +113,10 @@ export const experiences: ExperienceItem[] = [
 ]
 
 export interface ResearchItem {
-  title: string;
-  summary: string;
-  pdfLink: string;
-  doiLink: string;
+  title: string
+  summary: string
+  pdfLink: string
+  doiLink: string
 }
 
 export const researchPapers: ResearchItem[] = [
@@ -129,4 +129,4 @@ export const researchPapers: ResearchItem[] = [
       "https://journalijsra.com/sites/default/files/fulltext_pdf/IJSRA-2025-1338.pdf",
     doiLink: "https://doi.org/10.30574/ijsra.2025.15.2.1338",
   },
-];
+]

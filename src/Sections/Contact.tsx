@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <section id="contact" className="bg-purple-50 py-20 px-6 text-center">
-      <h2 className="text-3xl font-bold text-purple-700 mb-6">Get in Touch</h2>
+      <h2 className="text-3xl font-bold text-[#01796F] mb-6">Get in Touch</h2>
       <p className="text-md text-gray-700 max-w-xl mx-auto mb-8">
         Whether you're reaching out for a collaboration, project opportunity, or just to connect —
         feel free to drop a message!
@@ -12,7 +12,7 @@ export default function Contact() {
           📧{' '}
           <a
             href="mailto:shreyachauhan169@gmail.com"
-            className="text-purple-600 hover:underline"
+            className="text-[#01796F] hover:underline"
           >
             shreyachauhan169@gmail.com
           </a>
@@ -24,7 +24,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/Shreya1690"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-purple-600 hover:underline"
+            className="text-[#01796F] hover:underline"
           >
             linkedin.com/in/Shreya1690
           </a>
