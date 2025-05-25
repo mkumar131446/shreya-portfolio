@@ -2,7 +2,7 @@ import { education } from "../ConstantsData/Constants"
 
 export default function Experience() {
   return (
-    <section id="experience" className="bg-white py-20 px-6">
+    <section id="education" className="bg-white py-20 px-6">
       <h2 className="text-3xl font-bold text-center text-blue-600 mb-12">Education</h2>
       <div className="max-w-4xl mx-auto relative border-l-2 border-blue-700 pl-6">
         {education.map((item, index) => (

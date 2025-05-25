@@ -157,6 +157,7 @@ export const navLinks: NavLink[] = [
   { label: 'About', href: '#about' },
   { label: 'Experience', href: '#experience' },
   { label: 'Research & Publications', href: '#research' },
+  { label: 'Education', href: '#education' },
   { label: 'Tech Stack', href: '#tech' },
   { label: 'Contact', href: '#contact' },
 ]
