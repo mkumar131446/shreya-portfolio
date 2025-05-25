@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <span className="text-2xl font-bold" style={{ color: '#01796F' }}>Shreya Chauhan</span>
+        <span className="text-2xl font-bold text-blue-600">Shreya Chauhan</span>
 
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)}>
@@ -30,7 +30,7 @@ export default function Header() {
             <a
               key={link.label}
               href={link.href}
-              className="hover:text-[#01796F] transition"
+              className="hover:text-blue-600 transition"
             >
               {link.label}
             </a>
@@ -52,7 +52,7 @@ export default function Header() {
               <a
                 key={link.label}
                 href={link.href}
-                className="hover:text-[#01796F] transition"
+                className="hover:text-blue-600 transition"
                 onClick={() => setMenuOpen(false)}
               >
                 {link.label}

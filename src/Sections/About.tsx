@@ -11,7 +11,7 @@ export default function About() {
       transition={{ duration: 0.6, ease: 'easeOut' }}
       viewport={{ once: true }}
     >
-      <h2 className="text-3xl font-bold text-[#01796F] mb-6">About Me</h2>
+      <h2 className="text-3xl font-bold text-blue-600 mb-6">About Me</h2>
       <motion.p
         className="max-w-3xl mx-auto text-gray-700 text-md leading-relaxed"
         initial={{ opacity: 0 }}
@@ -29,7 +29,7 @@ export default function About() {
         href={resume}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-block bg-[#01796F] text-white font-medium px-6 py-3 rounded-full transition mt-8"
+        className="inline-block bg-blue-600 text-white font-medium px-6 py-3 rounded-full transition mt-8"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
       >
