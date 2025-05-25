@@ -10,7 +10,13 @@ export default function TechStack() {
             key={tool.name}
             className="bg-stone-50 shadow-md rounded-lg px-4 py-3 text-gray-700 font-medium hover:shadow-xl transition flex items-center justify-center gap-2"
           >
-            <span>{tool.icon}</span>
+            <div className='flex items-start gap-4'>
+              <img
+                src={tool.icon}
+                alt={tool.name}
+                className="h-8 w-8 object-contain rounded"
+              />
+            </div>
             <span>{tool.name}</span>
           </div>
         ))}

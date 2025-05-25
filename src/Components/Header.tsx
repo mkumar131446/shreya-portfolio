@@ -1,23 +1,17 @@
 import { useState } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
+import { navLinks } from '../ConstantsData/Constants'
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
-  const navLinks = [
-    { label: 'About', href: '#about' },
-    { label: 'Experience', href: '#experience' },
-    { label: 'Research & Publications', href: '#research' },
-    { label: 'Tech Stack', href: '#tech' },
-    { label: 'Contact', href: '#contact' },
-  ]
-
-  
+  const navigate = useNavigate()
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <span className="text-2xl font-bold text-blue-600">Shreya Chauhan</span>
+        <span className="text-2xl font-bold text-blue-600" onClick={() => navigate('/')}>Shreya Chauhan</span>
 
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)}>
